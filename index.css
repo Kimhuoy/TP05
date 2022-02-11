@@ -1,0 +1,47 @@
+
+#container1{
+    width: 100%;
+    height: 40vh;
+    
+}
+#container1.active
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#name{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+}
+#submit{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.grid{
+    width: 100%;
+    height: 60vh;   
+}
+.dino{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: blue;
+    bottom: 0;
+}
+.obstracle{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: orange;
+    bottom: 0px;
+}
